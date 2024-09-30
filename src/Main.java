@@ -13,7 +13,7 @@ public class Main
         String trash = "";
 
 
-        System.out.print("Enter the item price: ");
+        System.out.print("Enter the item price: $");
         if (in.hasNextDouble())
         {
             itemPrice = in.nextDouble();
@@ -30,8 +30,8 @@ public class Main
                 totalCost = itemPrice + shipCost;
             }
 
-            System.out.println("Shipping costs are " + shipCost);
-            System.out.println("Total costs are " + totalCost);
+            System.out.println("Shipping costs are $" + shipCost);
+            System.out.println("Total costs are $" + totalCost);
         }
         else
         {
